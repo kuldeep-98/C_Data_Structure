@@ -105,7 +105,6 @@ int main() {
     //append(a, 10);
     //insert(a, 4, 15);
     //display(a);
-    //delete(a,4);
     //insertSorted(a,10);
     display(a);
     display(&b);
