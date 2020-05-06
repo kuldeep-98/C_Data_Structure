@@ -43,14 +43,14 @@ int main(){
     for(int i=2;i<=8;i++){
         Insert(h,i);
     }
-    //printf("Delete %d",Delete(h,8));
     for (int i = 8; i > 0; i--)
     {
         Delete(h,i);
     }
-    
     for (int i = 1; i <=8; i++)
     {
         printf("%d\t",h[i]);
     }
+    printf("\n");
+    return 0;
 }
